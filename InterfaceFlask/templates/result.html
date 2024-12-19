@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат обработки</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f7f9fc;
+            font-family: 'Bahnschrift', 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+        .result-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .result-list li {
+            background: #e9f7e9;
+            border: 1px solid #28a745;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Предсказанные классы:</h1>
+        <ul class="result-list">
+            {% for num in sequence %}
+                <li>{{ num }}</li>
+            {% endfor %}
+        </ul>
+        <a href="/">Загрузить другой файл</a>
+    </div>
+</body>
+</html>
