@@ -46,9 +46,9 @@
 в области обеспечения безопасности полетов.
 
 ### Ход выполнения и результаты работы представлены в файлах:
-+ [Notebook](https://github.com/amigoris/BMSTU_Diplom/Notebook_and_datasets/DroneFailureDetection.ipynb)
-+ [Приложение](https://github.com/amigoris/BMSTU_Diplom/InterfaceFlask)
-+ [Пояснительная записка](https://github.com/amigoris/BMSTU_Diplom/Documentation/Documentation.pdf)
-+ [Презентация](https://github.com/amigoris/BMSTU_Diplom/Documentation/Presentation.pdf)
++ [Notebook](https://github.com/amigoris/BMSTU_Diplom/blob/master/Notebook_and_datasets/DroneFailureDetection.ipynb)
++ [Приложение](https://github.com/amigoris/BMSTU_Diplom/tree/master/InterfaceFlask)
++ [Пояснительная записка](https://github.com/amigoris/BMSTU_Diplom/blob/master/Documentation/Documentation.pdf)
++ [Презентация](https://github.com/amigoris/BMSTU_Diplom/blob/master/Documentation/Presentation.pdf)
   
 [Исходные данные](https://github.com/tiiuae/UAV-Realistic-Fault-Dataset/tree/main)
